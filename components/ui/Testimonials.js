@@ -35,8 +35,8 @@ export default function Testitionals() {
             priority
           />
 
-          <h1 className='my-2 font-semibold max-md:text-[12px]'>SNL company owner</h1>
-          <p className='w-[90%]  mx-auto font-inter max-md:text-[12px] '>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut imperdiet massa, 
+          <h1 className='my-2 font-semibold'>SNL company owner</h1>
+          <p className='w-[90%]  mx-auto font-inter'>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut imperdiet massa, 
             et blandit ipsum. Curabitur consectet "</p>
 
           <h2 className='my-2 font-semibold italic'>Carter B</h2>
