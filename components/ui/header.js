@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import '@fontsource/bebas-neue';
+import Link from 'next/link';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -51,8 +52,8 @@ export default function Header() {
         />
             
             <ul className='sm:text-3xl text-normal font-bold bg-[#132D94] flex flex-col sm:mt-24 mt-12 items-center text-center'>
-              <li className=' hover:bg-[#FF8A36] cursor-pointer px-30 py-5 border-b-2 w-full'>Home</li>
-              <li className='hover:bg-[#FF8A36] cursor-pointer px-30 py-5 border-b-2 w-full' >About</li>
+              <li className=' hover:bg-[#FF8A36] cursor-pointer px-30 py-5 border-b-2 w-full'><Link href="/">Home</Link></li>
+              <li className='hover:bg-[#FF8A36] cursor-pointer px-30 py-5 border-b-2 w-full' ><Link href="/about">About</Link></li>
               <li className='hover:bg-[#FF8A36] cursor-pointer px-30 py-5 border-b-2 w-full'>How It Works</li>
               <li className='hover:bg-[#FF8A36] cursor-pointer px-30 py-5 border-b-2 w-full'>Services</li>
               <li className='hover:bg-[#FF8A36] cursor-pointer px-30 py-5 w-full'>Contact</li>

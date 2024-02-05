@@ -35,33 +35,33 @@ export default function DetailedValuation() {
           />
         </div>
 
-        {/* local market dynamics */}
+        {/* Neighbourhood & Surroundings */}
         <div className="mt-10 lg:w-[40%] md:w-[50%] sm:w-[60%] w-[80%] mx-auto text-center border-2 rounded-[10px]">
             <h1 className="w-full py-2 bg-white text-[#1A2E77] rounded-lg md:text-4xl sm:text-3xl text-base font-bold" >Neighbourhood & Surroundings</h1>
             <Image
-            src="/assets/Images/graph1.png"
+            src="/assets/Images/graphicChart.png"
             alt="Accessibility"
-            className="max-sm:w-32 py-3 mx-auto"
-            width={200}
+            className="max-sm:w-48 py-3 mx-auto"
+            width={400}
             height={105.41}
             priority
           />
         </div>
 
-        {/* local market dynamics */}
+        {/* Home Characteristics & Condition */}
         <div className="mt-10 lg:w-[40%] md:w-[50%] sm:w-[60%] w-[80%] mx-auto text-center border-2 rounded-[10px]">
             <h1 className="w-full py-2 bg-white text-[#1A2E77] rounded-lg md:text-4xl sm:text-3xl text-base font-bold" >Home Characteristics & Condition</h1>
             <Image
-            src="/assets/Images/graph1.png"
+            src="/assets/Images/lineChart.png"
             alt="Accessibility"
-            className="max-sm:w-32 py-3 mx-auto"
-            width={200}
+            className="max-sm:w-48 py-3 mx-auto"
+            width={400}
             height={105.41}
             priority
           />
         </div>
 
-        {/* local market dynamics */}
+        {/* Future Development & Infrastructure */}
         <div className=" mt-10 lg:w-[40%] md:w-[50%] sm:w-[60%] w-[80%] mx-auto text-center border-2 rounded-[10px]">
             <h1 className="w-full py-2 bg-white text-[#1A2E77] rounded-lg md:text-4xl sm:text-3xl text-base font-bold" >Future Development & Infrastructure</h1>
            
@@ -83,12 +83,21 @@ export default function DetailedValuation() {
          </div>
         </div>
 
-
         
         {/* Economic & Employment Landscape */}
+        <HorizontalLineGraph/>
+        
+           {/*Comparative Sales & Listings */}
         <div className="mt-10 lg:w-[40%] md:w-[50%] sm:w-[60%] w-[80%] mx-auto text-center border-2 rounded-[10px]">
-            <h1 className="w-full py-2 bg-white text-[#1A2E77] rounded-lg md:text-4xl sm:text-3xl text-base font-bold" >Economic & Employment Landscape</h1>
-          <HorizontalLineGraph/>
+            <h1 className="w-full py-2 bg-white text-[#1A2E77] rounded-lg md:text-4xl sm:text-3xl text-base font-bold" >Comparative Sales & Listings</h1>
+            <Image
+            src="/assets/Images/salesChart.png"
+            alt="Accessibility"
+            className="max-sm:w-48 py-3 mx-auto"
+            width={400}
+            height={105.41}
+            priority
+          />
         </div>
 
     </div>

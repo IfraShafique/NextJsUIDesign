@@ -2,9 +2,9 @@ import React from 'react'
 import Header from '@/components/ui/header'
 import Content from '@/components/ui/aboutUi/content'
 import Progress from '@/components/ui/aboutUi/progress'
-import SegmentedBarChart from '@/components/ui/aboutUi/SegmentedBarChart'
 import Valuation from '@/components/ui/aboutUi/Valuation'
 import DetailedValuation from '@/components/ui/aboutUi/DetailedValuation'
+import Footer from '@/components/ui/footer'
 
 export default function page() {
   return (
@@ -17,7 +17,7 @@ export default function page() {
       <Progress/>
       <Valuation/>
       <DetailedValuation/>
-      {/* <SegmentedBarChart/> */}
+      <Footer/>
       </div>
     </div>
 
