@@ -21,7 +21,7 @@ export default function Valuation() {
                     {/* local market dynamics */}
                     <div className=" xl:w-[35%] lg:w-[40%] md:w-[50%] sm:w-[60%] w-[80%] xl:h-[20vh] h-[26vh] md:text-4xl font-bold sm:text-3xl text-base mx-auto text-center border-2 rounded-[10px]">
                         <h1 className="w-full py-2 bg-white text-[#1A2E77] rounded-lg md:text-4xl sm:text-3xl text-base " >Property Value</h1>
-                        <span className='flex mt-4 justify-center text-center '>£1,250,000</span>
+                        <span className='flex my-5 justify-center text-center  '>£1,250,000</span>
         </div>
                     </div>
 
