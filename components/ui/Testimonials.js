@@ -16,7 +16,7 @@ export default function Testitionals() {
       {/* cards */}
       <div className='flex max-md:flex-col justify-center items-center mt-10 sm:mt-24  max-md:text-[12px] text-[16px] text-black text-center'>
         {/* first card */}
-        <div className=' md:w-[30%] w-[80%] xl:h-[37vh]  bg-[#FFFF] rounded-[15px] border-black border-4 sm:mr-2 max-md:mb-16'>
+        <div className=' md:w-[30%] w-[80%]   bg-[#FFFF] rounded-[15px] border-black border-4 sm:mr-2 max-md:mb-16'>
         <Image
             src="/assets/Images/img3.png"
             alt="Mobillity"
@@ -43,7 +43,7 @@ export default function Testitionals() {
         </div>
 
         {/* second card */}
-        <div className=' md:w-[30%] w-[80%] xl:h-[37vh] bg-[#FFFF] rounded-[15px] border-black border-4  sm:mr-2  max-md:mb-16'>
+        <div className=' md:w-[30%] w-[80%] bg-[#FFFF] rounded-[15px] border-black border-4  sm:mr-2  max-md:mb-16'>
         <Image
             src="/assets/Images/img1.png"
             alt="Mobillity"
@@ -69,7 +69,7 @@ export default function Testitionals() {
         </div>
 
         {/* third card */}
-        <div className=' md:w-[30%] w-[80%] xl:h-[37vh] bg-[#FFFF] rounded-[15px] border-black border-4  sm:mr-2  max-md:mb-16'>
+        <div className=' md:w-[30%] w-[80%] bg-[#FFFF] rounded-[15px] border-black border-4  sm:mr-2  max-md:mb-16'>
         <Image
             src="/assets/Images/img2.png"
             alt="Mobillity"
@@ -88,7 +88,7 @@ export default function Testitionals() {
             priority
           />
 
-          <h1 className='my-2 font-semibolde'>Head of LJGJO</h1>
+          <h1 className='my-2 font-semibold'>Head of LJGJO</h1>
           <p className='w-[90%]  mx-auto font-inter '>" Donec arcu tortor, iaculis non porta sed, porttitor et enim. Aenean sit amet mi 
           et neque vehicula tempor vel id libero. Donec quam tortor "</p>
 
