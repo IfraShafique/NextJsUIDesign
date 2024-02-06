@@ -35,8 +35,8 @@ export default function Testitionals() {
             priority
           />
 
-          <h1 className='my-2 font-semibold max-md:text-[12px] text-base'>SNL company owner</h1>
-          <p className='w-[90%]  mx-auto font-inter max-md:text-[12px] text-base'>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut imperdiet massa, 
+          <h1 className='my-2 font-semibold'>SNL company owner</h1>
+          <p className='w-[90%]  mx-auto font-inter '>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut imperdiet massa, 
             et blandit ipsum. Curabitur consectet "</p>
 
           <h2 className='my-2 font-semibold italic'>Carter B</h2>
@@ -62,10 +62,10 @@ export default function Testitionals() {
             priority
           />
 
-          <h1 className='my-2 font-semibold max-md:text-[12px] text-base'>Manager of JJJKL</h1>
-          <p className='w-[90%]  mx-auto font-inter max-md:text-[12px] text-base '>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut imperdiet massa, et blandit ipsum. Curabitur consectetur ”</p>
+          <h1 className='my-2 font-semibold'>Manager of JJJKL</h1>
+          <p className='w-[90%]  mx-auto font-inter  '>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut imperdiet massa, et blandit ipsum. Curabitur consectetur ”</p>
 
-          <h2 className='my-2 font-semibold italic max-md:text-[12px] text-base'>Avery M.</h2>
+          <h2 className='my-2 font-semibold italic'>Avery M.</h2>
         </div>
 
         {/* third card */}
@@ -88,11 +88,11 @@ export default function Testitionals() {
             priority
           />
 
-          <h1 className='my-2 font-semibold max-md:text-[12px] text-base'>Head of LJGJO</h1>
-          <p className='w-[90%]  mx-auto font-inter max-md:text-[12px] text-base '>" Donec arcu tortor, iaculis non porta sed, porttitor et enim. Aenean sit amet mi 
+          <h1 className='my-2 font-semibolde'>Head of LJGJO</h1>
+          <p className='w-[90%]  mx-auto font-inter '>" Donec arcu tortor, iaculis non porta sed, porttitor et enim. Aenean sit amet mi 
           et neque vehicula tempor vel id libero. Donec quam tortor "</p>
 
-          <h2 className='my-2 font-semibold italic max-md:text-[12px] text-base'>Harper Z.</h2>
+          <h2 className='my-2 font-semibold italic '>Harper Z.</h2>
         </div>
       </div>
 
