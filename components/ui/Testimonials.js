@@ -14,7 +14,7 @@ export default function Testitionals() {
         <h1 className='sm:text-6xl text-4xl font-semibold loading-[72.61] text-center '>Testimonials</h1>
       
       {/* cards */}
-      <div className='flex max-md:flex-col justify-center items-center mt-10 sm:mt-24  max-md:text-[12px] text-base text-black text-center'>
+      <div className='flex max-md:flex-col justify-center items-center mt-10 sm:mt-24  max-md:text-[12px] text-[16px] text-black text-center'>
         {/* first card */}
         <div className=' md:w-[30%] w-[80%] xl:h-[37vh]  bg-[#FFFF] rounded-[15px] border-black border-4 sm:mr-2 max-md:mb-16'>
         <Image
